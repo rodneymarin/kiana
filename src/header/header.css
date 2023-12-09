@@ -1,0 +1,46 @@
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0 10px 0;
+
+}
+
+.col-header-logo{
+    width:fit-content;
+}
+
+.col-header-menu{
+    align-items: end;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+/************** MEDIA QUERIES ****************/
+@media only screen and (max-width: 999px) {
+    .hide-mobile{
+        display: none;
+    }
+
+    .menu-item{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .menu-item{
+        font-size: inherit;
+    }
+}

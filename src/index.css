@@ -1,0 +1,134 @@
+:root{
+  --primary: black;
+  --accent: #039645;
+  --secondary: #51ba49;
+  --light-bg: #f3ecde;
+  --mid-bg: #eee6d5;
+  --background: white;
+}
+
+.bg-pattern{
+  background: repeating-conic-gradient(from 45deg, var(--mid-bg) 0% 25%, var(--light-bg) 0% 50%);
+  background-size: 23px 23px;
+  background-color: var(--light-bg);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html{
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  color: var(--primary);
+}
+
+h1{
+  font-size: 2.3em;
+}
+
+strong{
+  color: var(--accent);
+}
+
+p{
+  margin-bottom: 1em;
+}
+
+.container{
+  /* width: 1140px; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  width: 100%;
+  justify-content: center;
+}
+
+section{
+  padding: 40px 0;
+  /* padding: 50px 0; */
+  display: block;
+}
+
+.page-title{
+  text-align: center;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.hoverbutton{
+  color: var(--primary);
+  display: block;
+  padding: 10px 25px;
+  border-radius: 50px / 50px;
+  
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.hoverbutton:hover, .hoverbutton:visited:hover{
+  background-color: var(--accent);
+  color: white;
+  text-decoration: none;
+}
+
+.hoverbutton:visited {
+  color: var(--primary);
+}
+
+.button-border{
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
+.button-border:visited{
+  color: var(--accent);
+}
+
+.link{
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--accent);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/************** MEDIA QUERIES ****************/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:1139px) {
+  .container{
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1140px) {
+  .container{
+    width: 1140px;
+  }
+}

@@ -1,0 +1,67 @@
+{
+    "products":[
+        {
+            "id":"1",
+            "title": "Avena en hojuelas",
+            "img": "./products/avena.png",
+            "cover": "true",
+            "line": "com"
+        },
+        {
+            "id":"2",
+            "title": "Crema de arroz",
+            "img": "./products/betsy.png",
+            "cover": "false",
+            "line": "com"
+        },
+        {
+            "id":"3",
+            "title": "Caraotas",
+            "img": "./products/caraotas.png",
+            "cover": "false",
+            "line": "com"
+        },
+        {
+            "id":"4",
+            "title": "Chicha",
+            "img": "./products/chicha.png",
+            "cover": "false",
+            "line": "com"
+        },
+        {
+            "id":"5",
+            "title": "ChocoK",
+            "img": "./products/chocok.png",
+            "cover": "true",
+            "line": "com"
+        },
+        {
+            "id":"6",
+            "title": "Fororo",
+            "img": "./products/fororo.png",
+            "cover": "false",
+            "line": "com"
+        },
+        {
+            "id":"7",
+            "title": "Lactokiana",
+            "img": "./products/lactokiana.png",
+            "cover": "true",
+            "line": "com"
+        },
+        {
+            "id":"8",
+            "title": "Rico Cereal",
+            "img": "./products/ricocereal.png",
+            "cover": "false",
+            "line": "com"
+        },
+        {
+            "id":"9",
+            "title": "Harina de Arroz",
+            "img": "./products/harina-industrial.png",
+            "cover": "false",
+            "line": "ind"
+        }
+    ]
+}

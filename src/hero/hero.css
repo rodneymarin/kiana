@@ -1,0 +1,79 @@
+#section-hero{
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    height: 780px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* .hero-title-col{
+    justify-content: center;
+} */
+
+.hero-line{
+    display: block;
+    line-height: 1.12em;
+    letter-spacing: -0.04em;
+}
+
+.hero-img{
+    height: 100%;
+    width: auto;
+    
+}
+
+.col-hero-img{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/************** MEDIA QUERIES ****************/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 1.6em;
+    }
+
+    .hero-container{
+        flex-direction: column;
+        height:600px;
+        gap: 1em;
+    }
+
+    .hero-line{
+        text-align: center;
+
+    }
+
+    .col-hero-img{
+        height: 100%;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .hero-img{
+        height: auto;
+        width: 100%;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
